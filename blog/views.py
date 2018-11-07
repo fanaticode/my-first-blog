@@ -7,3 +7,6 @@ def post_list(request):
 
 def test(request):
 	return render(request,'blog/test.html',{})
+
+def home(request):
+	return render(request, 'blog/home.html', {})
